@@ -1,0 +1,101 @@
+@media only screen and (min-width: 640px) {
+  /* Navbar */
+  .mobile-bar {
+    display: none;
+  }
+
+  .navbar {
+    gap: 4px;
+  }
+
+  .logo {
+    width: 19vw;
+    max-width: 150px;
+  }
+
+  .grow-list {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    font-size: 14px;
+  }
+
+  .list-item:hover {
+    color: #0c8bfd;
+  }
+
+  .nav-button {
+    width: 90px !important;
+    margin-right: 1px;
+  }
+
+  /* Hero Section */
+  .hero-heading {
+    font-size: 4rem;
+    text-align: left;
+  }
+
+  .hero-description {
+    font-size: 1.3rem;
+    text-align: left;
+    white-space: pre-line;
+  }
+
+  .btn {
+    width: 160px;
+    height: 60px;
+  }
+
+  .hero-button-black {
+    width: 180px;
+  }
+
+  /* Prices Section */
+  .prices-text {
+    justify-content: space-evenly;
+  }
+
+  .prices-heading {
+    font-size: 2rem;
+  }
+
+  /* Price Cards */
+  .price-card {
+    padding: 30px;
+    width: 85%;
+    max-width: 400px;
+    height: 750px;
+  }
+
+  .price-card-heading {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .price {
+    font-size: 4.5rem;
+    font-weight: 500;
+  }
+
+  .price span {
+    font-size: 2rem;
+  }
+
+  .price-card-description {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .price-offer p {
+    font-size: 1.4rem;
+  }
+
+  .price-btn {
+    width: 100%;
+  }
+
+  /* Review Section */
+  .review-cards {
+    grid-auto-columns: 70%;
+  }
+}

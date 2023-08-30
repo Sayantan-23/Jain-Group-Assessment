@@ -1,0 +1,271 @@
+@media only screen and (min-width: 768px) {
+  /* Navbar */
+  .navbar {
+    margin-top: 25px;
+  }
+  .grow-list {
+    gap: 3vw;
+    font-size: 1.09rem;
+  }
+
+  .nav-button {
+    width: 120px !important;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .hero-left {
+    width: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .hero-heading {
+    font-size: min(5vw, 75px);
+    line-height: min(7vw, 90px);
+  }
+
+  .hero-description {
+    font-size: min(1.49vw, 24px);
+  }
+
+  .btn {
+    width: 20vw;
+    max-width: 180px;
+    height: 60px;
+  }
+
+  .hero-btn {
+    margin-top: 5.5vw;
+  }
+
+  .hero-button-black {
+    width: 21vw;
+    max-width: 200px;
+  }
+
+  .hero-image-container {
+    width: 50%;
+    margin-top: 60px;
+  }
+
+  /* Logo Section */
+  .logo-container {
+    gap: 90px;
+    padding: 50px;
+  }
+
+  /* Features Section */
+  .features-container {
+    container-type: inline-size;
+  }
+
+  .features-text {
+    margin-top: 140px;
+  }
+
+  .features-upper-heading h1 {
+    font-size: 3.7rem;
+    font-weight: 600;
+  }
+
+  .features-description {
+    font-size: 1.2rem;
+  }
+
+  /* Features Cards */
+  .features-card-container {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+  }
+
+  .card-heading h1 {
+    font-size: 2rem;
+  }
+
+  @container (min-width: 1210px) {
+    .card-two {
+      margin-top: -100px;
+    }
+  }
+
+  .features-lower-heading h1 {
+    font-size: min(4vw, 75px);
+    line-height: min(5vw, 90px);
+    font-weight: 600;
+    margin-left: 60px;
+    margin-bottom: 40px;
+  }
+
+  .features-lower-heading h1 span::after {
+    content: "\a";
+    display: block;
+  }
+
+  /* Main Features (White Background) */
+  .features {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .features-bg-white {
+    width: 55%;
+  }
+  .features-bg-black {
+    width: 45%;
+  }
+  .main-features {
+    padding: 50px 30px;
+  }
+
+  /* Prices Section */
+  .prices-container {
+    container-type: inline-size;
+  }
+
+  .prices-heading {
+    font-size: min(3.5vw, 75px);
+    line-height: min(5vw, 90px);
+  }
+
+  .prices-heading span::after {
+    content: "\a";
+    display: block;
+  }
+
+  .arrow-img {
+    margin-top: 60px;
+  }
+
+  /* Price Cards */
+  @container (min-width:1183px) {
+    .prices-cards {
+      flex-direction: row;
+    }
+  }
+
+  .price-btn {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Review Section */
+  .customer-review-section {
+    padding-bottom: 130px;
+  }
+
+  .customer-review-text {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    text-align: left;
+    padding: 120px 80px 0px 80px;
+  }
+
+  .review-heading {
+    width: 50%;
+    font-size: min(4.2vw, 75px);
+    line-height: min(5vw, 90px);
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .review-description {
+    width: 40%;
+    text-align: left;
+    font-size: min(1.5vw, 75px);
+    line-height: min(1.8vw, 90px);
+  }
+
+  /* Review Cards */
+  .review-cards {
+    grid-auto-columns: 60%;
+    left: 100px;
+  }
+
+  @container (min-width:1100px) {
+    .review-cards {
+      grid-auto-columns: 50%;
+    }
+  }
+
+  .customer-review-card {
+    gap: 35px;
+  }
+
+  .reviewer-name {
+    font-size: min(2.1vw, 60px);
+  }
+
+  .reviewer-post {
+    font-size: 1.3rem;
+  }
+
+  .review {
+    font-size: min(2.3vw, 60px);
+  }
+
+  /* Form Section */
+  .form-container {
+    gap: 80px;
+  }
+
+  .form-heading {
+    font-size: min(4.2vw, 75px);
+    line-height: min(5vw, 90px);
+  }
+
+  .form-heading span::after {
+    content: "\a";
+    display: block;
+  }
+
+  @container (min-width: 1100px) {
+    .form {
+      flex-direction: row;
+    }
+  }
+
+  .form input {
+    padding-right: 7vw;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  /* Footer Section */
+  .footer {
+    position: relative;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    gap: 10vw;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .footer-list {
+    margin: 30px 0;
+    gap: 20px;
+  }
+
+  .footer-logo {
+    position: absolute;
+    left: 160px;
+  }
+}
