@@ -112,3 +112,36 @@ WHERE age = 25;
 
 **_Ans_** - A RESTful API (Representational State Transfer) is an architectural style for designing networked applications. It uses a set of constraints to create web services that are scalable, stateless, and easy to understand. RESTful APIs are widely used because they enable efficient communication between client and server applications over the HTTP protocol. They use standard HTTP methods (GET, POST, PUT, DELETE) to perform operations on resources represented as URLs. This simplicity and adherence to HTTP standards make RESTful APIs a popular choice for building web services, allowing systems to interact, exchange data, and achieve interoperability, making them a fundamental part of modern web and mobile app development.
 
+**Q11. How do you approach a problem, especially when you're unfamiliar with the challenge?**
+
+**_Ans_** - Folder Link - [Click Here](./Q11.%20Todo%20App/)
+
+**Q12. How do you approach a problem, especially when you're unfamiliar with the challenge?**
+
+**_Ans_** - When faced with an unfamiliar problem, I follow a systematic approach -
+
+1. **Understanding:** I thoroughly read and dissect the problem statement, ensuring I grasp its requirements and constraints.
+2. **Research:** I conduct research to gather relevant information, concepts, or techniques related to the problem.
+3. **Plan:** I devise a structured plan, breaking the problem into smaller, manageable tasks.
+4. **Experiment:** I implement and test solutions incrementally, starting with the most straightforward components.
+5. **Iterate:** If necessary, I refine and iterate on my approach based on the outcomes of initial attempts.
+6. **Seek Help:** If I'm stuck, I seek guidance from documentation, peers, or online resources.
+7. **Patience:** I remain persistent and patient, knowing that tackling complex problems often requires persistence and creative thinking.
+
+**Q13. Describe a project or assignment you've worked on during your education that you're particularly proud of. What did you learn from it?**
+
+**_Ans_** - In my final semester project I made a MERN stack video streaming application with features like - sign up/log in, explore different movies and web series of different categories, add or remove favorite, add or remove comments etc.
+
+I learned so much from this project. Basically how everything works in a full stack app, how to design database schemas, how I can manipulate the database from our app. I learned how to use API endpoints. I learned to implement sign up and log in functionality. I also learned how to use MUI(React component library) for the UI components for our app.
+
+**Q14. How do you manage your time and prioritize tasks, especially with tight deadlines or during exam periods?**
+
+**_Ans_** - In tight situations or during exams I follow some techniques to manage time and prioritize tasks effectively. At first I try to find all the works that I have to do and I try to break everything on the basis of these things - Deadline, estimate time to finish it, difficulty etc. On the basis of these thing I set a priority on each tasks and finish them one by one. I also see if some work is super important and needs to be done as soon as possible, then I have to do that task first. In exam times I generally try to fix a time-frame in a day where I will study the exam subjects and this time-frame depends on the exam syllabus. Other time I do the other important works like assignment submission or making projects. In these kind of situation I generally take small breaks sometimes like 10-15 mins of break for refreshment only if the situation allow me, otherwise If I have to work whole I do that also.
+
+**Q15. Can you describe a situation (academic or personal) where you had to work as part of a team? What role did you play, and what did you learn from the experience?**
+
+**_Ans_** - In my last semester project of my MCA I worked with my 4 other friends in a team to build a full stack video streaming application project. In that project I worked as a team lead. It was a complex project for us especially because we were all still learning MERN stack at that time. I coordinated tasks among all of then and guided them when needed. I earned valuable experience like leadership. I also got valuable skills of decision making and problem solving. Not only these, I also gained experience of teaching a little bit. Because one of our teammate was very new to JavaScript, so, I taught her JavaScript and that time I also realized how much I enjoy sharing my knowledge. These are all the experience and skills that I gained from the project.
+
+**Q16. Imagine you're stuck on a coding problem for a while. How would you go about seeking help or solutions?**
+
+**_Ans_** -When faced with a challenging coding problem, I first attempt to solve it independently by breaking it into smaller parts. If I'm still stuck, I try to find relevant documentation, books or solutions from any other online resources. If I still don't get the solution I seek help from my friends, forums or online communities, where I provide a clear description of the problem and the steps I have taken. I value diverse perspectives and am open to constructive feedback. I also engage in discussions and brainstorming if necessary. Ultimately, I learn from both the success and setbacks to enhance my problem-solving skills.
