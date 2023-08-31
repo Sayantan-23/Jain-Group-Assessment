@@ -97,3 +97,18 @@ const value = checkPalindrome(string);
 console.log(value);
 ```
 
+**Q9. Basic Database Query: Given a database table structure, write an SQL query to fetch specific data (e.g., all users aged 25).**
+
+**_Ans_** - The basic syntax of the query will be `SELECT column1, column2 FROM table1, table2 WHERE column2='value';`
+
+If we take the example of all users aged 25 then the query will be like this -
+
+```sql
+SELECT * FROM users
+WHERE age = 25;
+```
+
+**Q10. API Basics: Explain what you understand by RESTful API and why it's used.**
+
+**_Ans_** - A RESTful API (Representational State Transfer) is an architectural style for designing networked applications. It uses a set of constraints to create web services that are scalable, stateless, and easy to understand. RESTful APIs are widely used because they enable efficient communication between client and server applications over the HTTP protocol. They use standard HTTP methods (GET, POST, PUT, DELETE) to perform operations on resources represented as URLs. This simplicity and adherence to HTTP standards make RESTful APIs a popular choice for building web services, allowing systems to interact, exchange data, and achieve interoperability, making them a fundamental part of modern web and mobile app development.
+
