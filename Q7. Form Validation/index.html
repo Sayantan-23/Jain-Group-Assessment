@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <h1>User Information</h1>
+    <form id="userForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required /><br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+    <div id="output"></div>
+
+    <script>
+      const userForm = document.getElementById("userForm");
+      const outputDiv = document.getElementById("output");
+
+      userForm.addEventListener("submit", (event) => {
+        event.preventDefault(); // Preventing the form from submitting
+
+        // Get form values
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const age = document.getElementById("age").value;
+
+        // validating age is a positive number and less than 150
+        if (isNaN(age) || age <= 0 || age >= 150) {
+          alert("Please enter a valid age.");
+        } else {
+          const heading = document.createElement("h2");
+          heading.innerText = "User Information:";
+
+          const outputName = document.createElement("p");
+          outputName.innerText = `Name: ${name}`;
+
+          const outputEmail = document.createElement("p");
+          outputEmail.innerText = `Email: ${email}`;
+
+          const outputAge = document.createElement("p");
+          outputAge.innerText = `Age: ${age}`;
+
+          outputDiv.append(heading, outputName, outputEmail, outputAge);
+        }
+      });
+    </script>
+  </body>
+</html>

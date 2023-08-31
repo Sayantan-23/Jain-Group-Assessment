@@ -71,3 +71,29 @@ const numbers = [1, 2, 3, 4, 5, 6];
 const result = sumOfEvenNumbers(numbers);
 console.log(result); // Output will be 12 (2 + 4 + 6)
 ```
+
+**Q7. Basic Interaction: Create a form that collects user input, validates the input, and then displays it on the page using JavaScript.**
+
+**_Ans_** - Folder Link - [Click Here](./Q7.%20Form%20Validation/)
+
+**Q8. Simple Logic Test: Write a function that determines whether a given string is a palindrome.**
+
+**_Ans_** -
+
+```javascript
+const checkPalindrome = (string) => {
+  const len = string.length;
+
+  for (let i = 0; i < len / 2; i++) {
+    if (string[i] !== string[len - 1 - i]) {
+      return "It is not a palindrome";
+    }
+  }
+  return "It is a palindrome";
+};
+
+const string = "abbbba";
+const value = checkPalindrome(string);
+console.log(value);
+```
+
